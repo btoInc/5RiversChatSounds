@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        New script - protradingroom.com
+// @name        5RiversChatSounds - protradingroom.com
 // @namespace   Violentmonkey Scripts
 // @match       https://chat.protradingroom.com/?id=63ef8a6607762a108381d21f
 // @grant       none
@@ -64,10 +64,3 @@ console.log("got to the end")
 
 
 setTimeout(setObserver, 9000);
-/*
-function cleanup()
-{
- var videos = $('#screensTabsContent').find('video').get(0);
-  videos.pause();
-  videos.currentTime = 0;
-}*/
