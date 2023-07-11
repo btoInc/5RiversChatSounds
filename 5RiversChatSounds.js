@@ -8,11 +8,11 @@
 // @description 3/6/2023, 9:30:49 AM
 // ==/UserScript==
 
-var audioAlert = new Audio('https://notificationsounds.com/storage/sounds/file-sounds-871-wet.ogg');
+var audioAlert = new Audio('https://github.com/btoInc/5RiversChatSounds/blob/main/wet-431.mp3');
 audioAlert.volume = 0.35;
-var audioAlertAdmin = new Audio('https://notificationsounds.com/storage/sounds/file-47_ti-na.ogg');
-audioAlertAdmin.volume = 0.35;
-var audioAlertStock = new Audio('https://notificationsounds.com/storage/sounds/file-47_ti-na.ogg');
+var audioAlertAdmin = new Audio('https://github.com/btoInc/5RiversChatSounds/blob/main/ti-na-83.mp3');
+audioAlertAdmin.volume = 0.5;
+var audioAlertStock = new Audio('https://github.com/btoInc/5RiversChatSounds/blob/main/coins.mp3');
 audioAlertStock.volume = 0.35;
 
 function chatCallback(data){
